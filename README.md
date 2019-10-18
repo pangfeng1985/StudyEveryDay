@@ -7,3 +7,5 @@ project, Git basically takes a picture of what all your files look like at that 
 reference to that snapshot. To be efficient, if files have not changed, Git doesn¡¯t store the file again,
 just a link to the previous identical file it has already stored. Git thinks about its data more like a
 stream of snapshots
+
+
