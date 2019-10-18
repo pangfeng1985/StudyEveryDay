@@ -1,6 +1,6 @@
 # StudyEveryDay
 
-## Ò»¡¢study git [book:E:\D\study\git\progit.pdf]
+## study git [book:E:\D\study\git\progit.pdf]
 (1)Git thinks of its data more like a series of
 snapshots of a miniature filesystem. With Git, every time you commit, or save the state of your
 project, Git basically takes a picture of what all your files look like at that moment and stores a
