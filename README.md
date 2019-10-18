@@ -60,7 +60,8 @@ chapter two: Git Basics
    brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9)  
    You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on  
 
-   sample .gitignore:  more examples(https://github.com/github/gitignore)
+
+   sample .gitignore:  more examples(https://github.com/github/gitignore)  
     #ignore all .a files  
 	*.a  
 	#but do track lib.a, even though you're ignoring .a files above  
