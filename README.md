@@ -61,19 +61,25 @@ chapter two: Git Basics
    You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on  
 
    sample .gitignore:  more examples(https://github.com/github/gitignore)
-    # ignore all .a files
-	*.a
-	# but do track lib.a, even though you're ignoring .a files above
-	!lib.a
-	# only ignore the TODO file in the current directory, not subdir/TODO
-	/TODO
-	# ignore all files in any directory named build
-	build/
-	# ignore doc/notes.txt, but not doc/server/arch.txt
-	doc/*.txt
-	# ignore all .pdf files in the doc/ directory and any of its subdirectories
-	doc/**/*.pdf
+    #ignore all .a files  
+	*.a  
+	#but do track lib.a, even though you're ignoring .a files above  
+	!lib.a  
+	#only ignore the TODO file in the current directory, not subdir/TODO  
+	/TODO  
+	#ignore all files in any directory named build  
+	build/  
+	#ignore doc/notes.txt, but not doc/server/arch.txt  
+	doc/*.txt  
+	#ignore all .pdf files in the doc/ directory and any of its subdirectories  
+	doc/**/*.pdf  
 
 
-	Viewing Your Staged and Unstaged Changes
-	git diff  =>  answer these two questions: What have you changed but not yet staged? And what have you staged that you are about to commit? 
+	Viewing Your Staged and Unstaged Changes  
+	answer these two questions: What have you changed but not yet staged? And what have you staged that you are about to commit?   
+
+	git diff =>  That command compares what is in your working directory with what is in your staging area. The result tells you the changes you’ve made that you haven’t yet staged   
+	git diff --staged  => This command compares your staged changes to your last commit  
+
+
+	Committing Your Changes  
