@@ -8,7 +8,7 @@ reference to that snapshot. To be efficient, if files have not changed, Git does
 just a link to the previous identical file it has already stored. Git thinks about its data more like a
 stream of snapshots
 
-(2)Git has three main states that your files can reside in: modified,staged, and committed
+(2)Git has three main states that your files can reside in: modified,staged, and committed  
 • Modified means that you have changed the file but have not committed it to your database yet.   
 • Staged means that you have marked a modified file in its current version to go into your nextcommit snapshot.    
 • Committed means that the data is safely stored in your local database   
